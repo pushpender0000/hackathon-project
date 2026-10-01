@@ -1,0 +1,5 @@
+{"timestamp": "2026-09-27 11:28:21,024", "level": "INFO", "test": "memory_test", "message": "SHORT_TERM_PASSED: Thread thread-test-001 checkpoint verified with saved state."}
+{"timestamp": "2026-09-27 11:28:21,072", "level": "INFO", "test": "memory_test", "message": "LONG_TERM_PASSED: Recalled 3 persistent facts for customer CUST-PERSIST-01"}
+{"timestamp": "2026-09-27 11:28:21,120", "level": "INFO", "test": "memory_test", "message": "SESSION_1_COMMITTED: Persisted prior facts for CUST-RETURN-42 under thread thread-session-001"}
+{"timestamp": "2026-09-27 11:28:21,123", "level": "INFO", "test": "memory_test", "message": "SESSION_2_RECALL_PASSED: Return visit thread-session-002 successfully recalled cross-session context: {'prior_dispute_outcome': 'PROVISIONAL_CREDIT_GRANTED', 'verified_delivery_address': '123 Main St, Springfield', 'habitual_merchant_disputes': ['Apex Electronics'], 'account_tenure_years': 5}"}
+{"timestamp": "2026-09-27 11:28:21,293", "level": "INFO", "test": "memory_test", "message": "LANGMEM_CONTRACT_PASSED: langmem package successfully verified and loaded."}

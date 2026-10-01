@@ -1,0 +1,6 @@
+trace_id,dispute_id,scenario,end_to_end_latency_ms,agent_acting_latency_ms,tool_latency_ms,llm_model_latency_ms,thinking_latency_ms,gemini_call_count,input_tokens,output_tokens,thinking_tokens,total_tokens,notional_cost_usd,status,action,deterministic_accuracy
+d30776c3b3ea9666c3d40fa14dfb81a5,DISP-001,DISP-001,18308.12,18216.23,10623.05,3813.85,,2,563,277,,840,0.0008614,OK,provisional_credit,1.0
+93f037ca279c7292969683050361a404,DISP-003,DISP-003,15272.56,15184.98,11733.15,1741.66,,1,238,95,,333,0.0003089,OK,investigate,1.0
+2e7894a70f5f986e6d4e4a55f9773365,DISP-005,DISP-005,16693.23,16601.14,10439.82,3363.32,,2,574,307,,881,0.0009397,OK,deny,1.0
+29118f8d85178c4282b3f44633e5ebb2,DISP-013,DISP-013,59.73,6.44,0.0,0.0,,0,0,0,,0,0.0,OK,investigate,1.0
+f5bc084d9efe740139006cbd7f4aea14,DISP-MCP-FAIL,DISP-MCP-FAIL,4641.13,4570.52,4565.4,0.0,,0,0,0,,0,0.0,OK,investigate,1.0

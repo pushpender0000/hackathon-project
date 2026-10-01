@@ -1,0 +1,38 @@
+# Secrets & Environment Configuration
+.env
+.env.local
+.env.*.local
+*.key
+credentials.json
+
+# Python & Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Vector & State Databases (runtime generated)
+data/chroma_db/
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+data/*.sqlite
+data/*.sqlite3
+data/*.sqlite-journal
+data/memory/*.sqlite
+data/memory/*.db
+data/memory/*.sqlite-journal
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

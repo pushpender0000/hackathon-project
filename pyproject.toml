@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transaction-dispute-copilot"
+version = "0.1.0"
+description = "Transaction Dispute & Fraud-Triage Copilot (BC-AAIE-HACK-03)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Agentic AI Engineering Team" }
+]
+dependencies = [
+    "google-genai==2.25.0",
+    "langgraph==1.2.12",
+    "langgraph-checkpoint-sqlite==3.1.1",
+    "langmem==0.0.30",
+    "langchain-mcp-adapters==0.3.2",
+    "mcp==1.30.0",
+    "chromadb==1.5.9",
+    "sentence-transformers==6.1.0",
+    "arize-phoenix==20.6.0",
+    "openinference-instrumentation-langchain==0.1.76",
+    "deepeval==4.2.6",
+    "presidio-analyzer==2.2.364",
+    "pydantic==2.13.5",
+    "pytest==9.1.1",
+    "pytest-asyncio>=0.23.0",
+    "python-dotenv>=1.0.0",
+    "structlog>=24.1.0",
+    "matplotlib>=3.8.0"
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

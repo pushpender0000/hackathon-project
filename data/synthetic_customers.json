@@ -1,0 +1,134 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "name": "Synthetic Cardholder 1",
+    "tenure_months": 18,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 0,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1001"
+  },
+  {
+    "customer_id": "CUST-002",
+    "name": "Synthetic Cardholder 2",
+    "tenure_months": 24,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 0,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1002"
+  },
+  {
+    "customer_id": "CUST-003",
+    "name": "Synthetic Cardholder 3",
+    "tenure_months": 30,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 1,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1003"
+  },
+  {
+    "customer_id": "CUST-004",
+    "name": "Synthetic Cardholder 4",
+    "tenure_months": 36,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 1,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1004"
+  },
+  {
+    "customer_id": "CUST-005",
+    "name": "Synthetic Cardholder 5",
+    "tenure_months": 42,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 1,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1005"
+  },
+  {
+    "customer_id": "CUST-006",
+    "name": "Synthetic Cardholder 6",
+    "tenure_months": 48,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 1,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1006"
+  },
+  {
+    "customer_id": "CUST-007",
+    "name": "Synthetic Cardholder 7",
+    "tenure_months": 54,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 2,
+    "open_disputes": 0,
+    "prior_fraud_reports": 0,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1007"
+  },
+  {
+    "customer_id": "CUST-008",
+    "name": "Synthetic Cardholder 8",
+    "tenure_months": 60,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 2,
+    "open_disputes": 0,
+    "prior_fraud_reports": 2,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1008"
+  },
+  {
+    "customer_id": "CUST-009",
+    "name": "Synthetic Cardholder 9",
+    "tenure_months": 66,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 6,
+    "open_disputes": 1,
+    "prior_fraud_reports": 2,
+    "win_rate": 0.4,
+    "default_card_pan_masked": "****-****-****-1009"
+  },
+  {
+    "customer_id": "CUST-010",
+    "name": "Synthetic Cardholder 10",
+    "tenure_months": 72,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 6,
+    "open_disputes": 0,
+    "prior_fraud_reports": 2,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1010"
+  },
+  {
+    "customer_id": "CUST-011",
+    "name": "Synthetic Cardholder 11",
+    "tenure_months": 78,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 6,
+    "open_disputes": 0,
+    "prior_fraud_reports": 2,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1011"
+  },
+  {
+    "customer_id": "CUST-012",
+    "name": "Synthetic Cardholder 12",
+    "tenure_months": 84,
+    "account_status": "ACTIVE",
+    "total_prior_disputes": 6,
+    "open_disputes": 0,
+    "prior_fraud_reports": 2,
+    "win_rate": 0.85,
+    "default_card_pan_masked": "****-****-****-1012"
+  }
+]

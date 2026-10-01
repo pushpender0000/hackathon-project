@@ -1,0 +1,58 @@
+[
+  {
+    "rule_id": "SYNTH-RULE-10.4",
+    "category": "fraudulent_transaction",
+    "title": "Synthetic Card-Absent Fraud Benchmark Rule",
+    "network_family": "SYNTH-NET-VISA",
+    "max_filing_days": 120,
+    "required_evidence": [
+      "cardholder_written_statement",
+      "proof_card_in_possession"
+    ],
+    "provisional_credit_permitted": true,
+    "description": "Cardholder certifies that they neither engaged in nor authorized a card-absent or e-commerce transaction. Card issuer may submit chargeback within 120 calendar days from transaction processing date.",
+    "synthetic_section": "Section 10.4 - Synthetic Fraud Regulations"
+  },
+  {
+    "rule_id": "SYNTH-RULE-13.1",
+    "category": "merchandise_not_received",
+    "title": "Synthetic Merchandise / Services Not Received Benchmark Rule",
+    "network_family": "SYNTH-NET-VISA",
+    "max_filing_days": 120,
+    "required_evidence": [
+      "proof_of_attempted_merchant_resolution",
+      "delivery_tracking_or_cancellation_confirmation"
+    ],
+    "provisional_credit_permitted": true,
+    "description": "Cardholder paid for merchandise or services that were not delivered, or merchant refused to provide promised services. Filing cutoff is 120 days from expected delivery date or transaction date.",
+    "synthetic_section": "Section 13.1 - Synthetic Consumer Services Regulations"
+  },
+  {
+    "rule_id": "SYNTH-RULE-4837",
+    "category": "fraudulent_transaction",
+    "title": "Synthetic Unauthorized Cardholder Transaction Benchmark Rule",
+    "network_family": "SYNTH-NET-MC",
+    "max_filing_days": 120,
+    "required_evidence": [
+      "fraud_affidavit",
+      "police_report_reference_if_available"
+    ],
+    "provisional_credit_permitted": true,
+    "description": "Cardholder disputes an unauthorized charge occurring in a card-not-present or electronic environment. Issuer may initiate chargeback within 120 days of settlement.",
+    "synthetic_section": "Section 4837 - Synthetic Master Network Rules"
+  },
+  {
+    "rule_id": "SYNTH-RULE-4853",
+    "category": "duplicate_processing",
+    "title": "Synthetic Recurring / Duplicate Processing Benchmark Rule",
+    "network_family": "SYNTH-NET-MC",
+    "max_filing_days": 90,
+    "required_evidence": [
+      "cancellation_notice_timestamp",
+      "billing_statement_showing_dual_charges"
+    ],
+    "provisional_credit_permitted": true,
+    "description": "Covers multiple postings of the same transaction, arithmetic billing errors, or recurring billing charged after customer cancellation. Maximum filing window is 90 calendar days.",
+    "synthetic_section": "Section 4853 - Synthetic Cardholder Dispute Standards"
+  }
+]
